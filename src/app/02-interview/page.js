@@ -5,7 +5,7 @@ import Comments from "@/components/Comments";
 
 export const dynamic = "force-dynamic";
 
-async function InterviewExercise() {
+function InterviewExercise() {
   return (
     <>
       <article className="main-article">
