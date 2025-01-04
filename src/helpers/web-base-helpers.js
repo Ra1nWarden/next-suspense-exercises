@@ -9,6 +9,8 @@ export async function getNavLinks() {
   return LINKS;
 }
 
+export const cachedGetNavLinks = React.cache(getNavLinks);
+
 const delay = (ms) =>
   new Promise((resolve) =>
     setTimeout(resolve, ms)
