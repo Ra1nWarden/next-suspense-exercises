@@ -3,7 +3,7 @@ import Link from "next/link";
 
 import { cachedGetNavLinks } from "@/helpers/web-base-helpers";
 
-async function SiteFooter() {
+function SiteFooter() {
   return (
     <footer className="site-footer">
       <div className="logo-wrapper">

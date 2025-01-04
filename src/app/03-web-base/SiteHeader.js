@@ -3,7 +3,7 @@ import Link from "next/link";
 
 import { cachedGetNavLinks } from "@/helpers/web-base-helpers";
 
-async function SiteHeader() {
+function SiteHeader() {
 
   return (
     <header className="site-header">
